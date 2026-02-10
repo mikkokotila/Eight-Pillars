@@ -2,6 +2,7 @@ services:
   - type: web
     name: eight-pillars
     runtime: docker
+    region: frankfurt
     plan: starter
     autoDeploy: true
     healthCheckPath: /
