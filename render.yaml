@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: eight-pillars
+    runtime: docker
+    plan: starter
+    autoDeploy: true
+    healthCheckPath: /
